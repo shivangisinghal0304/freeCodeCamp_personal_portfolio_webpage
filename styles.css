@@ -1,0 +1,67 @@
+body {
+	background-color: rgb(255, 91, 66);
+	font-size: 20px;
+}
+
+
+
+#navbar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	margin: 20px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	background-color: rgb(113, 121, 171);
+	padding: 20px;
+}
+
+
+.profile-picture {
+	width: 150px;
+	height: auto;
+	border-radius: 50%;
+}
+
+#navbar-tab {
+
+	padding-left: 20px;
+	font-size: 20px;
+	font-weight: bold;
+	text-decoration: none;
+	color: black;
+/*	background-color: yellow;
+*/
+}
+
+#navbar-tabs {
+	display: flex;
+/*	background-color: green;
+*/	align-items: center;
+
+}
+
+#profile {
+	display: flex;
+	align-items: center;
+}
+
+#profile > p {
+	font-family: 'Mukta', sans-serif;
+	font-weight: bold;
+	padding-left: 20px;
+	font-size: 30px;
+
+}
+
+
+#welcome {
+	padding: 30px;
+	padding-top: 200px;
+	height: 100vh;
+
+
+}
+
