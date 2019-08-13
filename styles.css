@@ -1,6 +1,9 @@
 body {
-	background-color: rgb(255, 91, 66);
-	font-size: 20px;
+	background-color: rgb(28, 28, 28);
+	font-size: 30px;
+	color: white;
+	font-weight: bold;
+	font-family: 'Fjalla One', sans-serif;
 }
 
 
@@ -10,58 +13,318 @@ body {
 	top: 0;
 	left: 0;
 	right: 0;
-	margin: 20px;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	background-color: rgb(113, 121, 171);
-	padding: 20px;
+	padding: 30px;
+	background-color: rgb(28, 28, 28);
+	padding-bottom: 40px;
+
 }
 
 
-.profile-picture {
-	width: 150px;
+/*.profile-picture {
+	width: 400px;
 	height: auto;
 	border-radius: 50%;
+}*/
+
+.navbar-tab {
+	text-transform: uppercase;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 40px ;
+	line-height: normal;
+	color: #8a8a8a;
+	padding-left: 50px;
+	
+
 }
 
-#navbar-tab {
-
-	padding-left: 20px;
-	font-size: 20px;
-	font-weight: bold;
-	text-decoration: none;
-	color: black;
-/*	background-color: yellow;
-*/
+.navbar-tab:hover {
+	color: red; 
 }
 
 #navbar-tabs {
 	display: flex;
-/*	background-color: green;
-*/	align-items: center;
+	align-items: top;
+	justify-content: flex-end;
+	flex: 1;
+
 
 }
 
 #profile {
 	display: flex;
 	align-items: center;
+	flex: 1;
+
 }
 
 #profile > p {
 	font-family: 'Mukta', sans-serif;
 	font-weight: bold;
 	padding-left: 20px;
-	font-size: 30px;
+	font-size: 40px;
 
 }
 
 
 #welcome {
 	padding: 30px;
-	padding-top: 200px;
+	height: 100vh;
+	display: flex;
+	text-transform: uppercase;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+/*	background-color: brown;
+*/	margin-bottom: 20px;
+
+
+}
+
+
+#projects {
+	height: 100vh;
+}
+
+
+
+#logo-one {
+	padding-right: 40px;
+}
+
+
+
+#logo-two {
+	padding-right: 40px;
+}
+
+#logo-three {
+	padding-top: 15px;
+	text-decoration: none;
+	padding-right: 40px;
+
+
+}
+
+
+
+#resume-logo {
+  border-radius: 10px;
+  background: #8a8a8a;
+  padding: 20px; 
+  width: 80px;
+  height: 150px;  
+  color: black;
+  font-size: 28px;
+  letter-spacing: 2px;
+  font-family: sans-serif;
+  margin-bottom: 100px;
+}
+
+#contact-logo {
+  border-radius: 10px;
+  background: #8a8a8a;
+  padding: 20px; 
+  width: 80px;
+  height: 150px;  
+  color: black;
+  font-size: 28px;
+  letter-spacing: 2px;
+  font-family: sans-serif;
+  margin-bottom: 100px;
+}
+
+#logo-four {
+	padding-top: 15px;
+	text-decoration: none;
+
+
+}
+
+
+
+
+#navigation {
+	padding: 20px;
+	display: flex;
+	padding-top: 40px;
+
+}
+
+
+
+
+
+#hi{
+	font-size: 10vh;
+}
+
+#name{
+	font-size: 20vh;
+	text-align: center;
+
+}
+
+#identity {
+	font-size: 10vh;
+	text-align: center;
+
+}
+
+
+#name {
+	color: #8a8a8a;
+	padding: 20px;
+}
+
+#developer {
+	color: #8a8a8a;
+}
+
+#programmer {
+	color: #8a8a8a;
+}
+
+#linkedin-logo {
+	background-image: url("https://www.iconsdb.com/icons/preview/gray/linkedin-3-xxl.png");
+}
+
+
+
+
+.main-section {
+	height: 100vh;
+
+}
+
+
+#contact {
+	display: flex; 
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+/*	background-color: brown;
+*/	padding: 40px;
+
+
+
+}
+
+#contact-header {
+	text-transform: uppercase;
+	flex: 1;
+	font-size: 15vh;
+}
+
+.contact-detail {
+	text-transform: none;
+	letter-spacing: 5px;
+	font-size: 8vh;
+
+}
+
+
+.grey {
+	color: #8a8a8a;
+	text-decoration: none;
+
+}
+
+.grey:hover {
+	color: red;
+}
+
+
+#about-header {
+	text-transform: uppercase;
+	flex: 1;
+	font-size: 10vh;
+}
+
+
+#about {
+	display: flex; 
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+	text-align: center;
+	background-color: green;
+	padding-left:10%;
+	padding-right: 10%;
 	height: 100vh;
 
 
 }
+
+#about-detail{
+	text-align: left;
+	font-size: 6vh;
+	font-weight: normal;
+	text-decoration: none;
+	padding: 40px;
+	letter-spacing: 2px;
+
+
+}
+
+.no-line {
+	text-decoration: none;
+}
+
+#projects {
+	display: flex; 
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+/*	background-color: green;
+*/	padding-left: 10%;
+	padding-right: 10%;
+
+}
+
+
+#projects-content {
+	flex:1;
+	display: flex; 
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	align-content: space-between;
+	text-align: center;
+/*	background-color: green;
+*/	padding-left: 10%;
+	padding-right: 10%;
+
+}
+
+#web-project{
+	flex:1;
+	display: flex;
+	flex-direction: column;
+	background-color: yellow;
+	align-content: stretch;
+
+
+}
+
+
+#embedded-project{
+	flex:1;
+	display: flex;
+	align-content: stretch;
+	flex-direction: column;
+	justify-content: space-between;
+	background-color: green;
+	flex-grow: 1;
+
+}
+
+
+
+
 

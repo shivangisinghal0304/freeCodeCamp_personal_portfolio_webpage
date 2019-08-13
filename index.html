@@ -3,65 +3,204 @@
 <head>
 	<title>Visalbotr Chan</title>
 	<link rel='stylesheet' type='text/css' href='styles.css'>
+	<link href="https://fonts.googleapis.com/css?family=Fjalla+One&display=swap" rel="stylesheet">
 
 
 
 </head>
 <body>
 
-	<section id="welcome">
-		<h1> Visal's Portfolio </h1>
+	<section id="welcome" class="main-section">
+		<div id="hi"> 
+			Hello, I am
+		</div>
+
+		<div id="name">
+			<div id="first-name">
+				Visalbotr 
+			</div>
+
+			<div id="last-name">
+				Chan
+			</div>
+		</div>
+
+		<div id="identity">
+			<div id="identity-one">
+				I'm a Full Stack <span id="developer">Developer</span> and
+			</div>
+			<div id="identity-two">
+				Embedded System <span id="programmer">Programmer</span>.
+			</div>
+		</div>
+
+		<div id="navigation">
+			<a 	id="logo-one"
+				href="https://www.linkedin.com/in/visalbotr/">
+				<img 
+				src="https://lh3.googleusercontent.com/jT-Me57c6979zuihYH0Oz8Yqd_1BU_cBNgrCPd6rSUHwPYmHrEfTbBIXs45GVHAx73zGjkentWZxLZOZmZrSGGjw3a2_UXEojzqwUSxj9MwpQ6TiiYRIXbo0XPAbqFp4LL6Y74hEuAY=w2400" 
+				alt="World Wide Web Consortium Home" width="72" height="72" 
+				border="0"> 
+			</a>
+					
+
+
+			
+			<a 	id="logo-two"
+				href="https://github.com/vchan14">
+				<img 
+				src="https://bit.ly/2ZY8fR1" 
+				alt="World Wide Web Consortium Home" width="72" height="72" 
+				border="0"> 
+			</a>
+					
+		
+
+			<a 
+				id="logo-three"
+				href="https://drive.google.com/file/d/1opd2_o0DgSw583BYKyPwyaLkqA2FOThj/view?usp=sharing">
+				<span id="resume-logo">RESUME</span>
+			</a>
+
+			<a 
+				id="logo-four"
+				href="#contact">
+				<span id="contact-logo">CONTACT</span>
+			</a>
+		</div>
+	</section>
+
+
+
+	<section id="about" class="main-section">
+		<div id="about-content">
+			<header id="about-header"> About Me
+			</header>
+
+			<div id="about-detail">
+			
+		
+		 		<p class="description"> Hi! I'm Visal. I'm a fourth-year computer Engineering major at Cal Poly San Luis Obispo. I'm currently a <a class="no-line"href="https://csc.calpoly.edu/"><span class="grey">technician assistant</span></a> at the Computer Science Department and also a web programmer for Cal Poly  <a class="no-line" href="https://www.facebook.com/groups/406614513472946/"><span class="grey">CS for Social Good</span></a>.
+	 			
+	 			<br>
+	 			<br>
+
+	 			This past summer I was a Embedded Engineering researcher at  <a class="no-line" href="http://www.ee.calpoly.edu/"> <span class="grey">the Electrical Engineering Department</span></a>, where I worked on creating a mobile app that communicates between a custom ATmega328 board and embedded health sensors. I enjoy working on challenge projects that have social impacts and last year I won third place in <a class="no-line" href="https://www.slohacks.com"> <span class="grey">Cal Poly Fire Hack</span></a> ! 
+	 			<br><br>
+	 			I am very passionate about embedded system and web development. I have accomulated several projects which uses flask, postgresql, jinja javaScript, python and C. Please feel free to checkout my <a class="no-line" href="#projects"><span class="grey">project</span></a> section. 
+
+	 			<br><br>
+	 			I'm always looking for new opportunities to improve my skills and to learn something new, so don't hesistate to <a class="no-line"href="#contact"><span class="grey">contact me</span></a>. 
+	 		</p>
+			
+			</div>
+
+
+
+		</div>
+
 
 	</section>
 
 
 
-	<section id="projects">
-		<div class="project-tile">
-			<a href="#" My Attribute>Project Title</a>
+
+	<section id="projects" class="main-section">
+
+		<div id="projects-header">
+			<p> My Projects</p>
+
 		</div>
 
+		<div id="projects-content">
+			<div id="web-project">
 
-		<div class="project-tile">
-			<a href="#" My Attribute>Project Title</a>
+				<p> Web </p>
+				<div class="project-tile">
+					<a href="#" >Project Title</a>
+				</div>
+
+
+				<div class="project-tile">
+					<a href="#" >Project Title</a>
+				</div>
+
+				<div class="project-tile">
+					<a href="#" >Project Title</a>
+				</div>
+			</div>
+
+			<div id="embedded-project">
+
+				<p> Embedded</p>
+				<div class="project-tile">
+					<a href="#" >Project Title</a>
+				</div>
+
+
+				<div class="project-tile">
+					<a href="#" >Project Title</a>
+				</div>
+
+				<div class="project-tile">
+					<a href="#" >Project Title</a>
+				</div>
+			</div>
+
 		</div>
+			
 
-		<div class="project-tile">
-			<a href="#" My Attribute>Project Title</a>
-		</div>
-
-		<div class="project-tile">
-			<a href="#" My Attribute>Project Title</a>
-		</div>
-
+	
 	</section>
-
 
 
 
 	<nav id="navbar">
 
-		<div id="profile">
-			<img class="profile-picture"
-			     src="https://bit.ly/2Z1RZx8"
-			     alt="Visalbotr Chan Profile Picture" />
-			<p> Visalbotr Chan</p>
-
-		</div>
-
 		<div id="navbar-tabs">
-			<a id="navbar-tab" href="#" > About Me </a>
-			<a id="navbar-tab" href="#" > My Works </a>
-			<a id="navbar-tab" href="#" > Resume </a>
-			<a id="navbar-tab" href="#" > Contact Me </a>
+			<a class="navbar-tab" href="#welcome" > Home </a>
+			<a class="navbar-tab" href="#about" > About </a>
+			<a class="navbar-tab" href="#projects" > Projects </a>
+			<a class="navbar-tab" href="https://drive.google.com/file/d/1opd2_o0DgSw583BYKyPwyaLkqA2FOThj/view?usp=sharing" > Resume </a>
+			<a class="navbar-tab" href="#contact" > Contact </a>
+
+
 		</div>
 		
 	</nav>
 
 
-	<div>
-		<a href="mygithub profile"> my Github profile</a>
-	</div>
+	<section id="contact" 
+			class="main-section">
+
+		<div id="contact-content">
+
+			<header id="contact-header">
+				Contact
+			</header>
+
+			<div class="contact-detail" 
+				id="contact-detail-one">
+				Feel free to contact me at <span class="grey">vchan14@calpoly.edu </span>
+	
+			</div>
+
+			<div class="contact-detail"
+
+				id="contact-detail-two">
+				or connect with me on <span class="grey">Linkedin</span> !
+			</div>
+
+
+
+		</div>
+
+
+	</section>
+
+
+
+
 
 </body>
 </html>
