@@ -1,11 +1,9 @@
 body {
 	background-color: rgb(28, 28, 28);
-	font-size: 20px;
+	font-size: 30px;
 	color: white;
 	font-weight: bold;
 	font-family: 'Fjalla One', sans-serif;
-	display: flex;
-	flex-direction: column;
 }
 
 
@@ -20,17 +18,22 @@ body {
 	justify-content: space-between;
 	padding: 30px;
 	background-color: rgb(28, 28, 28);
-	padding-bottom: 20px;
+	padding-bottom: 40px;
 
 }
 
 
+/*.profile-picture {
+	width: 400px;
+	height: auto;
+	border-radius: 50%;
+}*/
 
 .navbar-tab {
 	text-transform: uppercase;
 	text-decoration: none;
 	font-weight: bold;
-	font-size: 20px ;
+	font-size: 40px ;
 	line-height: normal;
 	color: #8a8a8a;
 	padding-left: 50px;
@@ -67,7 +70,7 @@ body {
 }
 
 
-#welcome-section {
+#welcome {
 	padding: 30px;
 	height: 100vh;
 	display: flex;
@@ -75,17 +78,70 @@ body {
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	background-color: brown;
-	margin-bottom: 0px;
-  padding-top: 0px;
-  margin-top: 0px;
+/*	background-color: brown;
+*/	margin-bottom: 20px;
+
+
 }
-
-
 
 
 #projects {
 	height: 100vh;
+}
+
+
+
+#logo-one {
+	padding-right: 40px;
+}
+
+
+
+#logo-two {
+	padding-right: 40px;
+}
+
+#logo-three {
+	padding-top: 15px;
+	text-decoration: none;
+	padding-right: 40px;
+
+
+}
+
+
+
+#resume-logo {
+  border-radius: 10px;
+  background: #8a8a8a;
+  padding: 20px; 
+  width: 80px;
+  height: 150px;  
+  color: black;
+  font-size: 28px;
+  letter-spacing: 2px;
+  font-family: sans-serif;
+  margin-bottom: 100px;
+}
+
+#contact-logo {
+  border-radius: 10px;
+  background: #8a8a8a;
+  padding: 20px; 
+  width: 80px;
+  height: 150px;  
+  color: black;
+  font-size: 28px;
+  letter-spacing: 2px;
+  font-family: sans-serif;
+  margin-bottom: 100px;
+}
+
+#logo-four {
+	padding-top: 15px;
+	text-decoration: none;
+
+
 }
 
 
@@ -95,80 +151,25 @@ body {
 	padding: 20px;
 	display: flex;
 	padding-top: 40px;
-	background-color: yellow;
 
 }
-
-#logo-one {
-	padding-right: 40px;
-	background-color: blue;
-}
-
-
-
-#logo-two {
-	padding-right: 40px;
-	background-color: red;
-}
-
-#logo-three {
-	text-decoration: none;
-	padding-right: 40px;
-	background-color: rgb(135, 222, 168);
-	
-}
-
-
-#resume-logo {
-	border-radius: 10px;
-
-	background: #8a8a8a;
-	padding: 10px;
-	color: black;
-	font-size: 15px;
-	letter-spacing: 2px;
-	font-family: sans-serif;
-	/* margin-bottom: 50px; */
-	background-color: darkgoldenrod;
-
-}
-
-#logo-four {
-	text-decoration: none;
-	background-color: bisque;
-}
-
-
-
-#contact-logo {
-  border-radius: 10px;
-  background: #8a8a8a;
-  padding: 10px; 
-  color: black;
-  font-size: 15px;
-  letter-spacing: 2px;
-  font-family: sans-serif;
-  background-color: darkgreen;
-}
-
-
 
 
 
 
 
 #hi{
-	font-size: 40px;
+	font-size: 10vh;
 }
 
 #name{
-	font-size: 70px;
+	font-size: 20vh;
 	text-align: center;
 
 }
 
 #identity {
-	font-size: 40px;
+	font-size: 10vh;
 	text-align: center;
 
 }
@@ -196,7 +197,6 @@ body {
 
 .main-section {
 	height: 100vh;
-	flex:1;
 
 }
 
@@ -208,8 +208,7 @@ body {
 	justify-content: center;
 	text-align: center;
 /*	background-color: brown;
-*/	padding-left: 10%;
-	padding-right: 10%;
+*/	padding: 40px;
 
 
 
@@ -218,22 +217,15 @@ body {
 #contact-header {
 	text-transform: uppercase;
 	flex: 1;
-	font-size: 40px;
-	padding-bottom: 15px;
-	
+	font-size: 15vh;
 }
 
 .contact-detail {
-	text-transform: uppercase;
+	text-transform: none;
 	letter-spacing: 5px;
-	font-size: 22px;
+	font-size: 8vh;
 
 }
-#contact-detail-one {
-	padding-bottom: 8px;
-}
-
-
 
 
 .grey {
@@ -242,8 +234,6 @@ body {
 
 }
 
-
-
 .grey:hover {
 	color: red;
 }
@@ -251,37 +241,32 @@ body {
 
 #about-header {
 	text-transform: uppercase;
-	flex: 0;
-	font-size: 40px;
-	text-align: center;
-	/* background-color: red; */
+	flex: 1;
+	font-size: 10vh;
 }
 
 
 #about {
 	display: flex; 
 	flex-direction: column;
-	/* align-items: center; */
-	/* justify-content: center; */
-	/* align-content: center; */
+	align-items: flex-start;
+	justify-content: center;
+	text-align: center;
+	background-color: green;
 	padding-left:10%;
 	padding-right: 10%;
 	height: 100vh;
-	/* background-color: green; */
-	padding-top: 130px;
-	padding-bottom:20px;
+
+
 }
 
 #about-detail{
-	/* background-color: yellow; */
 	text-align: left;
-	font-size: 22px;
+	font-size: 6vh;
 	font-weight: normal;
 	text-decoration: none;
 	padding: 40px;
 	letter-spacing: 2px;
-	padding-top: 10px;
-	flex: 1;
 
 
 }
@@ -290,83 +275,54 @@ body {
 	text-decoration: none;
 }
 
-
 #projects {
-	display: grid;
-	padding-left: 10%;
-	padding-right: 10%;
-	grid-template-rows: 1fr 4fr 4fr; 
-	grid-row-gap: 20px;
-
-}
-
-#projects-header {
-	font-size: 30px;
-	/* background-color: red; */
+	display: flex; 
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 	text-align: center;
-	margin-bottom: -40px;
-	padding-top: 50px;
-	text-transform: uppercase;
-	/* align-self: end;
-	justify-self: center;
-	padding-top: 10px; */
+/*	background-color: green;
+*/	padding-left: 10%;
+	padding-right: 10%;
 
 }
 
-#web-project {
-	/* background-color: brown; */
-	display: flex;
-	flex-direction: column;
-	align-content: space-between;
-	border: solid;
 
-
-}
-
-#web-project p {
-	text-align: left;
-	padding-left: 20px;
-
-	
-}
-
-#embedded-project {
-	/* background-color: red; */
-	display: flex;
-	flex-direction: column;
-	align-content: space-between;
-	border: solid;
-
-}
-
-#embedded-project p {
-	text-align: left;
-	padding-left: 20px;
-}
-
-.project-tile {
+#projects-content {
 	flex:1;
-	padding-bottom: -5px;
-	padding-left: 20px;
-}
-
-li{
-	display: inline;
-}
-
-
-
-#ggg {
-	/* background-color: pink; */
-}
-
-@media (min-width: 480px) 
-{ 
-  background-color: brown;
+	display: flex; 
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	align-content: space-between;
+	text-align: center;
+/*	background-color: green;
+*/	padding-left: 10%;
+	padding-right: 10%;
 
 }
 
+#web-project{
+	flex:1;
+	display: flex;
+	flex-direction: column;
+	background-color: yellow;
+	align-content: stretch;
 
+
+}
+
+
+#embedded-project{
+	flex:1;
+	display: flex;
+	align-content: stretch;
+	flex-direction: column;
+	justify-content: space-between;
+	background-color: green;
+	flex-grow: 1;
+
+}
 
 
 
